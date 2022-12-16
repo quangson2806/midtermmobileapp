@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#323232"
+    tools:context=".PhotoActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="2"
+        android:rowCount="4"
+        android:layout_margin="10dp"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="185dp"
+            android:layout_height="200dp"
+            android:layout_margin="5dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            app:srcCompat="@drawable/anh1" />
+
+        <ImageView
+            android:background="#0F110C"
+            android:id="@+id/imageView18"
+            android:layout_width="185dp"
+            android:layout_height="200dp"
+            android:layout_margin="5dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            app:srcCompat="@drawable/anh2" />
+
+        <ImageView
+            android:background="#C9BEBA"
+            android:id="@+id/imageView19"
+            android:layout_width="185dp"
+            android:layout_height="200dp"
+            android:layout_margin="5dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            app:srcCompat="@drawable/anh3" />
+
+        <ImageView
+            android:background="#A09B30"
+            android:id="@+id/imageView20"
+            android:layout_width="185dp"
+            android:layout_height="200dp"
+            android:layout_margin="5dp"
+            android:layout_row="1"
+            android:layout_column="1"
+            app:srcCompat="@drawable/anh4" />
+
+        <ImageView
+            android:background="#967848"
+            android:id="@+id/imageView21"
+            android:layout_width="185dp"
+            android:layout_height="200dp"
+            android:layout_margin="5dp"
+            android:layout_row="2"
+            android:layout_column="0"
+            app:srcCompat="@drawable/anh5" />
+
+        <ImageView
+            android:background="#453D36"
+            android:id="@+id/imageView22"
+            android:layout_width="185dp"
+            android:layout_height="200dp"
+            android:layout_margin="5dp"
+            android:layout_row="2"
+            android:layout_column="1"
+            app:srcCompat="@drawable/anh6" />
+
+    </GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
